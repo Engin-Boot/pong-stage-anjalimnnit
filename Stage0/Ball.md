@@ -24,4 +24,3 @@ And MoveBall() moves the ball in random directions.
 
  Then - Reinitialize() the ball
  And place it in the center of the screen
- 
