@@ -26,4 +26,5 @@ The score of the players is increased using IncrementScore().
  When : Any one of the player presses exit.
 
  Then: Quit() game and delete the space for ball and paddle
+ 
  OR Restart the game using Restart()            
