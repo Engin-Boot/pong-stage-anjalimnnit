@@ -3,7 +3,7 @@
 
 ## Feature
 
-This module take cares of how the paddles move in response to the moving ball.
+This module take cares of how the paddles move in response to the ball.
 
 ## Acceptance Criteria
 
