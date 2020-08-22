@@ -13,5 +13,5 @@ This module take cares of how the paddles move in response to the ball.
 
  When - The ball comes near to paddle
 
- Then - Move the paddle using up using MoveUp() 
+ Then - Move the paddle using up using MoveUp()
  and down using MoveDown()
