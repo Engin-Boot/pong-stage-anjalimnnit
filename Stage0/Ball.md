@@ -23,4 +23,4 @@ And MoveBall() moves the ball in random directions.
  When - The player scores a point.
 
  Then - Reinitialize() the ball
-       And place it in the center of the screen
+ And place it in the center of the screen
