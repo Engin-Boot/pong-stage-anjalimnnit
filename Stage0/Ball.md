@@ -8,7 +8,7 @@ And MoveBall() moves the ball in random directions.
 
 ## Acceptance Criteria
 
-### Scenario: Moving the ball when the game starts.
+### Scenario: Moving the ball when the game starts
 
   Given - The players have joined
 
@@ -24,7 +24,3 @@ And MoveBall() moves the ball in random directions.
 
  Then - Reinitialize() the ball
        And place it in the center of the screen
-
- 
-       
-

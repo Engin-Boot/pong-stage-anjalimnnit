@@ -20,12 +20,10 @@ The score of the players is increased using IncrementScore().
  Then - IncrementScore() of another player and update the score on the screen.
 
 ### Scenario: any player press exit
+
  Given: The game is functioning properly.
 
  When : Any one of the player presses exit.
 
  Then: Quit() game and delete the space for ball and paddle.
-       OR Restart the game using Restart()
-
-  
-              
+       OR Restart the game using Restart()            
