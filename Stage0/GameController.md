@@ -11,6 +11,15 @@ The score of the players is increased using IncrementScore().
 
 ## Acceptance Criteria
 
+### Scenario: Starting the game
+
+ Given - The start button.
+
+ When - The user enter the start button.
+
+ Then - The system automatically assigns a player 2 from the set of online users.
+        and their intial scores are set to 0.
+
 ### Scenario: Incrementing the score of the player
 
  Given - The initial scores of player 1 and player 2
@@ -18,12 +27,31 @@ The score of the players is increased using IncrementScore().
  When - The ball touches the back of paddle of one of the player
 
  Then - IncrementScore() of another player and update the score on the screen.
+        For player 1 score1++
+        For player 2 score2++
 
-### Scenario: any player press exit
+### Scenario: Any player press exit
 
  Given: The game is functioning properly.
 
  When : Any one of the player presses exit.
 
- Then: Quit() game and delete the space for ball and paddle
- OR Restart the game using Restart()
+ Then: Show option as Quit game or Restart game.
+       Quit game exits and delete the space for ball and paddle
+       Restart game starts the game from the beginning.
+
+### Scenario: One of the player wins
+
+ Given: The game is functioning properly
+
+ When : The score of any one of the player == 15
+
+ Then : Stop the game and show a message "Player 1 or 2 wins"
+
+### Scenario: Playing sound when the ball hits the padddle
+
+ Given: The game is functioning properly.
+
+ When: The ball hits the paddles
+
+ Then: Play a sound.

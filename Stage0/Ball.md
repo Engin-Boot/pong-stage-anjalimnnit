@@ -3,16 +3,16 @@
 ## Feature
 
 This module is for managing the ball for the pong game.
-Here we can Reinitialize() the ball
-And MoveBall() moves the ball in random directions.
+Here we can Reinitialize() the ball.
+And MoveBall() moves the ball in random direction.
 
 ## Acceptance Criteria
 
 ### Scenario: Moving the ball when the game starts
 
-  Given - The players have joined
+  Given - The players have joined.
 
-  When - We start the game.
+  When - Player enters start button.
 
   Then - The ball starts moving in random direction using MoveBall().
 
@@ -22,5 +22,13 @@ And MoveBall() moves the ball in random directions.
 
  When - The player scores a point.
 
- Then - Reinitialize() the ball
+ Then - Reinitialize the ball
  And place it in the center of the screen
+
+### Scenario: Ball changes direction when hits anything
+
+ Given - The game works efficiently and the ball is moving randomly.
+
+ When - The ball hits the wall or the paddles
+
+ Then - The ball reflects back in other direction.
