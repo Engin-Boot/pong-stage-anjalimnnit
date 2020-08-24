@@ -5,7 +5,7 @@
 ```mermaid
 sequenceDiagram
 GameController->>+Ball: On clicking the ball start moving
-Ball->>+GameController: Increase the ball speed when player 1 score == 5 or player 2 score ==5
+Ball->>+GameController: Increase the ball speed when player 1 or 2 score=5
 ```
 
 ## Movement Initiation
@@ -21,7 +21,7 @@ Ball->>+GameController: As the ball hits the back of paddle restart the game.
 
 ```mermaid
 sequenceDiagram
-Ball->>+GameController: As the ball hits the back wall of any one of the padddle,increase the score of the respective player.
+Ball->>+GameController: Ball miss then increase the score of the respective player.
 GameController->>+Ball: On click move the ball.
 
 ```
