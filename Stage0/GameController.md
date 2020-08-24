@@ -17,8 +17,9 @@ The score of the players is increased using IncrementScore().
 
  When - The user enter the start button.
 
- Then - The system automatically assigns a player 2 from the set of online users.
-        and their intial scores are set to 0.
+ Then - We can see two paddles and a ball
+        and intial scores of players are set to 0
+        and the game starts by clicking on the ball.
 
 ### Scenario: Incrementing the score of the player
 

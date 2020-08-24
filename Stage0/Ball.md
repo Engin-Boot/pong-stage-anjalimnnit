@@ -12,7 +12,7 @@ And MoveBall() moves the ball in random direction.
 
   Given - The players have joined.
 
-  When - Player enters start button.
+  When - Player clicks on the ball.
 
   Then - The ball starts moving in random direction using MoveBall().
 
@@ -27,8 +27,16 @@ And MoveBall() moves the ball in random direction.
 
 ### Scenario: Ball changes direction when hits anything
 
- Given - The game works efficiently and the ball is moving randomly.
+ Given - The game is functioning properly
+         and the ball is moving randomly.
 
  When - The ball hits the wall or the paddles
 
  Then - The ball reflects back in other direction.
+
+### Scenario: Increasing the ball speed
+
+ Given - The game is functioning properly
+         and the ball is moving randomly.
+ When - The score of any of the player == 5
+ Then - Increase the speed of the ball.
