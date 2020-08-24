@@ -4,9 +4,8 @@
 
 ```mermaid
 sequenceDiagram
-GameController->>+Ball: On click of start button start moving the ball
- Ball->>+GameController: After clicking start button Ball starts moving in random directions
-
+GameController->>+Ball: On clicking the ball start moving
+Ball->>+GameController: Increase the ball speed when player 1 score == 5 or player 2 score ==5
 ```
 
 ## Movement Initiation
@@ -14,7 +13,7 @@ GameController->>+Ball: On click of start button start moving the ball
 ```mermaid
 sequenceDiagram
 GameController->>+Paddle: Game has started then players can start moving their paddles
-GameController->>+Ball: As the game starts ball starts moving automatically. 
+GameController->>+Ball: On clicking the ball starts moving automatically.
 Ball->>+GameController: As the ball hits the back of paddle restart the game.
 ```
 
@@ -22,7 +21,7 @@ Ball->>+GameController: As the ball hits the back of paddle restart the game.
 
 ```mermaid
 sequenceDiagram
-Ball->>+GameController: As the ball hits the back wall of any one of the padddle,increase the score of the respective player
-GameController->>+Ball: Increased the score of player.Start moving the ball again.
+Ball->>+GameController: As the ball hits the back wall of any one of the padddle,increase the score of the respective player.
+GameController->>+Ball: On click move the ball.
 
 ```
