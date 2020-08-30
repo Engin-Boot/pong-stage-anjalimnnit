@@ -24,7 +24,7 @@ And  move the ball in random direction.
 
  Then - Reinitialize the ball
  And place it in the center of the screen.
- And tell the GameController to update the scores.
+ And tell the Game Controller to update the scores.
 
 ### Scenario: Ball changes direction when hits anything
 
