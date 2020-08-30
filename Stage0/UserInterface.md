@@ -1,12 +1,12 @@
-# UserInterface
+# User Interface
 
 ## Feature
 
-This module with take care of the user interface of the game i.e.
-setup the background, setup screen size, balls
+This module with take care of the user interface of the game which
+includes background setup, setup screen size, balls
 and paddles for both the players.
 Ball is placed in the center of the screen and paddles at the two ends.
-Initial score of the players i.e. 0 is displayed on the screen.
+Initial score of the players 0 is displayed on the screen.
 
 ## Acceptance Criteria
 
@@ -26,6 +26,6 @@ Given: The user has already customized the settings.
 
 When: The user clicks on the start button.
 
-Then: User can see the ball palced in the center of the screen.
+Then: User can see the ball placed in the center of the screen.
 Paddles at the two corners of the screen.
 Score of both players displayed as 0 on the screen.

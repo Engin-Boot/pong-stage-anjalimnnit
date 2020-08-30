@@ -5,7 +5,7 @@
 Before entering the game user can change the default UI
 setting which includes background, ball and paddle color.
 On clicking the start button, the user interface of the game
-is visible with paddles , ball and intial score of
+is visible with paddles, ball and intial score of
 both the players.
 
 ```mermaid

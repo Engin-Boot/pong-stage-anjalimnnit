@@ -35,7 +35,7 @@ This feature takes care of the collisions between the balls.
 
  Then : Stop the game and UI show a message "Player 1 or 2 wins"
 
-### Scenario: Playing sound when the ball hits the padddle
+### Scenario: Playing sound when the ball hits the paddle
 
  Given: The game is functioning properly.
 
