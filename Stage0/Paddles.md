@@ -11,7 +11,7 @@ This module take cares of how the paddles move in response to the ball.
 
  Given - The game is running
 
- When - The ball starts moving
+ When - The ball starts moving.
 
  Then - Move the paddle using up using "U" for player 1
         and "Up arrow button" for player 2

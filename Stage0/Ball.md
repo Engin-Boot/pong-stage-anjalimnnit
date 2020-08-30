@@ -4,7 +4,7 @@
 
 This module is for managing the ball for the pong game.
 Here we can Reinitialize() the ball.
-And MoveBall() moves the ball in random direction.
+And  move the ball in random direction.
 
 ## Acceptance Criteria
 
@@ -24,7 +24,7 @@ And MoveBall() moves the ball in random direction.
 
  Then - Reinitialize the ball
  And place it in the center of the screen.
- And tell the GameChanger to update the scores.
+ And tell the GameController to update the scores.
 
 ### Scenario: Ball changes direction when hits anything
 

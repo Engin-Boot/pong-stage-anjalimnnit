@@ -1,9 +1,9 @@
 # The Essentials
 
 1. Divided the problem into four modules:
-   -UserInterface
+   -User Interface
    -Ball
-   -GameController
+   -Game Controller
    -Paddles
 
 1. Fill the sequence-start file with the details of module-interactions,

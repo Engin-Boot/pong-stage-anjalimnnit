@@ -1,4 +1,4 @@
-# GameController
+# Game Controller
 
 ## Feature
 
@@ -12,10 +12,10 @@ This feature takes care of the collisions between the balls.
 
  When - The ball touches the back of paddle of one of the player
 
- Then - IncrementScore() of another player and
+ Then - Increment Score of another player and
  tell UI to update the score on the screen.
-        For player 1 score1++
-        For player 2 score2++
+        For player 1 score 1 ++
+        For player 2 score 2 ++
 
 ### Scenario: Any player press exit
 
