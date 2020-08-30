@@ -2,20 +2,15 @@
 
 ## Feature
 
-This module with take care of the user interface of the game i.e.
-setup the background, setup screen size, balls
-and paddles for both the players.
-Ball is placed in the center of the screen and paddles at the two ends.
-Initial score of the players i.e. 0 is displayed on the screen.
-The score of the players is increased using IncrementScore().
+This feature takes care of the collisions between the balls.
 
 ## Acceptance Criteria
 
 ### Scenario: Starting the game
 
- Given - The start button.
+ Given - The user interface is set up.
 
- When - The user enter the start button.
+ When - The user 
 
  Then - We can see two paddles and a ball
         and intial scores of players are set to 0

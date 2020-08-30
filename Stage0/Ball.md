@@ -8,22 +8,23 @@ And MoveBall() moves the ball in random direction.
 
 ## Acceptance Criteria
 
-### Scenario: Moving the ball when the game starts
+### Scenario: Starting the game
 
-  Given - The players have joined.
+  Given - The UI is setup .
 
   When - Player clicks on the ball.
 
-  Then - The ball starts moving in random direction using MoveBall().
+  Then - The ball starts moving in random directions.
 
-### Scenario: Reinitializing the ball when the player scores a point
+### Scenario: The ball hits the back wall of paddle
 
- Given - The game is going on
+ Given - The game is going on.
 
- When - The player scores a point.
+ When - The ball hits the back of paddle.
 
  Then - Reinitialize the ball
- And place it in the center of the screen
+ And place it in the center of the screen.
+ And tell the GameChanger to update the scores.
 
 ### Scenario: Ball changes direction when hits anything
 
@@ -33,10 +34,3 @@ And MoveBall() moves the ball in random direction.
  When - The ball hits the wall or the paddles
 
  Then - The ball reflects back in other direction.
-
-### Scenario: Increasing the ball speed
-
- Given - The game is functioning properly
-         and the ball is moving randomly.
- When - The score of any of the player == 5
- Then - Increase the speed of the ball.
